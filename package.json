@@ -1,6 +1,6 @@
 {
   "name": "@phil795/simpletoast",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A simple VueJs, Bootstrap 5 Toast plugin",
   "main": "simpletoast.js",
   "scripts": {
