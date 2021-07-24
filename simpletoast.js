@@ -60,7 +60,7 @@
 
         setTimeout(function () {
             SimpleToast.remove(id);
-        }, Settings.durationInSeconds * 1000);
+        }, durationInSeconds ? durationInSeconds * 1000 : Settings.durationInSeconds * 1000);
     };
 
     SimpleToast.remove = function (elementId) {
