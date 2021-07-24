@@ -21,8 +21,8 @@
         position: 'top-right',
         parent: 'body',
         type: 'light',
-        durationInSeconds: 3,
-        template: '<div class="toast show" role="alert" aria-live="assertive" aria-atomic="true">\n' +
+        durationInSeconds: 6,
+        template: '<div class="toast show mb-2" role="alert" aria-live="assertive" aria-atomic="true">\n' +
             '    <div class="toast-header">\n' +
             '      <strong class="me-auto">{title}</strong>\n' +
             '      <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>\n' +
