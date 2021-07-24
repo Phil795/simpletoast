@@ -21,7 +21,7 @@
         position: 'top-right',
         parent: 'body',
         type: 'light',
-        durationInSeconds: 6,
+        durationInSeconds: 5,
         template: '<div class="toast show mb-2" role="alert" aria-live="assertive" aria-atomic="true">\n' +
             '    <div class="toast-header">\n' +
             '      <strong class="me-auto">{title}</strong>\n' +
@@ -42,7 +42,7 @@
         }
     };
 
-    SimpleToast.show = function (message, title = undefined, type = undefined) {
+    SimpleToast.show = function (message, title = undefined, type = undefined, durationInSeconds = 5) {
         var container = SimpleToast.render(),
             template = fillTemplate({
                 '{message}': message,
