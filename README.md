@@ -1,7 +1,18 @@
 # simpletoast
-A simple JS Bootstrap5 Toast plugin
+Einfaches vanilla JS Bootstrap5 Toast plugin.
 
-TODO: 
-  - Set random toast id
-  - Add parameter for duration
-  - Fix Close button
+## Usage
+Die Types basieren auf den Bootstrap Farben:
+- light (default)
+- dark
+- info
+- success
+- warning
+- danger
+
+```js
+SimpleToast.show('message', 'title=""', 'type=light', 'durationInSeconds=5');
+``` 
+
+## Todo:
+- Zufällige, einmalig ID setzen
