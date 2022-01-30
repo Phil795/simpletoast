@@ -83,7 +83,8 @@
         css(container, {
             position: 'fixed',
             top: '20px',
-            right: '20px'
+            right: '20px',
+            zIndex: '1999'
         });
 
         parent.appendChild(container);
